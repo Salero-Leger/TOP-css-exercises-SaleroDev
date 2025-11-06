@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+  padding: 0;
+}
 .header  {
   font-family: monospace;
   background: papayawhip;
@@ -9,6 +13,19 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+
+}
+.header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-links ul,.right-links ul{
+  gap: 12px;
+  display: flex;
+  margin: 0;
+  padding: 0 12px;
 }
 
 ul {
